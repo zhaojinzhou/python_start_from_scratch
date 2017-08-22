@@ -19,9 +19,9 @@ def quicksort(left,right,a):
 
 
 
-a = []
-for i in range(20):
-    a.append(int(200*random.random()))
+a = [int(random.random()*100 ) for i in range(10) ]    #快速生成随机数序列
+# for i in range(20):
+    # a.append(int(200*random.random()))
 print(a)
 print(len(a))
 quicksort(0,len(a)-1,a)
