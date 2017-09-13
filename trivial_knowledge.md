@@ -122,6 +122,24 @@ print (currentDate.strftime('Please attend our event %A, %B %d in the yea
 
 ----
 
+      try:  
+          print(a)  
+      except ZeroDivisionError:  
+          print("divided by 0")  
+      #处理已知异常  
+      except:  
+          print("sth wrong")  
+      #处理任意异常  
+      
+*在except之后的代码也总会被执行*  
+[standard exceptions](https://docs.python.org/3/c-api/exceptions.html#standard-exceptions)  
+*07.09.13*  
+
+----
+
+
+
+
 
 
 
